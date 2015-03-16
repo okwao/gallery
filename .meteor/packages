@@ -7,3 +7,11 @@
 meteor-platform
 autopublish
 insecure
+cfs:standard-packages
+cfs:gridfs
+cfs:ui
+accounts-base
+iron:router
+accounts-password
+aldeed:autoform
+aldeed:collection2
