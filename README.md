@@ -11,7 +11,4 @@ iron:router            1.0.7  Routing specifically designed for Meteor
 meteor-platform        1.2.1  Include a standard set of Meteor packages in yo...
 
 
-* New versions of these packages are available! Run 'meteor update' to try to
-  update those packages to their latest versions. If your packages cannot be
-  updated further, try typing `meteor add <package>@<newVersion>` to see more
-  information.
+
