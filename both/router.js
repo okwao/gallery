@@ -6,7 +6,7 @@ loadingTemplate will use a template with loading or a template
 
 */
 Router.configure({
-  layoutTemplate: 'layout',
+  layoutTemplate: 'masterLayout',
   notFoundTemplate: '404',
   loadingTemplate: 'loading'
 });
@@ -18,6 +18,23 @@ Router.route ('/', function(){
   this.render('home');
   name: 'home'
 });
+
+Router.map( function () {
+  this.route('artist', {
+    path: '/artist',
+    name: 'artist'
+  })
+});
+
+Router.map( function () {
+  this.route('gallery', {
+    path: '/gallery',
+    name: 'gallery'
+  })
+});
+
+
+
 
 // // with params sent from the browser
 // Router.route('/users/:_id', function(){
