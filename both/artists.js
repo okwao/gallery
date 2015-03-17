@@ -1,13 +1,13 @@
-Artists = new Mongo.Collection('artists');
+// Artists = new Mongo.Collection('artists');
 
-Artists.attachSchema(new SimpleSchema({
-  description:{
-    type: String,
-    max: 300,
-    label: 'The Story',
+// Artists.attachSchema(new SimpleSchema({
+//   description:{
+//     type: String,
+//     max: 300,
+//     label: 'The Story',
     
-    autoform:{
-      rows:3
-    }
-  }
-}));
+//     autoform:{
+//       rows:3
+//     }
+//   }
+// }));
