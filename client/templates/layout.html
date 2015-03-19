@@ -19,8 +19,10 @@
 									<li><a href="{{pathFor 'home'}}">Home</a></li>
 									<li><a href="{{pathFor 'artists'}}">Artists</a></li>
 									<li><a href="{{pathFor 'gallery'}}">Gallery</a></li>
-									<!-- <li><a href="index-3.html">Blog</a></li> -->
 									<li><a href="{{pathFor 'contact'}}">Contact</a></li>
+									{{# if user}}
+									<li><a href="#">Log Out</a></li>
+									{{/if}}
 								</ul>
 							</div>
 							

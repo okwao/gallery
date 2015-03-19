@@ -30,3 +30,4 @@ Router.route('/gallery', {
 Router.route('/contact', {
   name: 'contact'
 });
+
