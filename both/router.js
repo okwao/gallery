@@ -6,7 +6,8 @@ loadingTemplate will use a template with loading or a template
 
 */
 Router.configure({
-  layoutTemplate: 'layout'
+  layoutTemplate: 'layout',
+  trackPageView: true
   // notFoundTemplate: '404',
   // loadingTemplate: 'loading'
 });
