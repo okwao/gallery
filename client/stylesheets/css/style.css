@@ -60,7 +60,7 @@ a[href^="tel:"] {
 }
 /*------ header ------- */
 header {
-  padding: 30px 0 29px;
+  padding: 5px 0 0px;
   z-index: 50;
 }
 /* navbar */
@@ -945,7 +945,7 @@ footer {
     float: left !important;
     margin-left: 10px;
   }
-  .portfolio {
+  /*.portfolio {
     margin-left: -10px;
   }
   .portfolio li {
@@ -954,7 +954,7 @@ footer {
   }
   .portfolio li img {
     width: 100%;
-  }
+  }*/
   .img-indent {
     float: none;
     margin: 0 0 18px 0;
