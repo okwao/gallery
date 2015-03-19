@@ -461,7 +461,7 @@ p {
 .magnifier {
   opacity: 1;
   position: relative;
-  height: auto;
+  height: 350px;
   display: block;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
