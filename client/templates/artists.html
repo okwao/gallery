@@ -1,37 +1,63 @@
 <template name="artists">
-	<div class="bg-content">       
-		<!--============================== content =================================-->      
-		<div id="content">
-			<div class="ic">More Website Templates @ TemplateMonster.com. November19, 2012!</div>
-			<div class="container">
-				<div class="row">
-					<div style="min-height:400px;">
-						<article class="span12">
-							<h3>Artists</h3>
-						</article>
-						<div class="clear"></div>
-						<ul class="portfolio clearfix">         
-							<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/Derek88.jpg"></a></li> 
-							<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/EstherDel12.jpg"></a></li> 
-							<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/BrightAckwerh1.jpg"></a></li> 
-					<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/TheoPencil01.jpg"></a></li> 
-					<!--<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/page3-img5.jpg"></a></li> 
-					<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/page3-img6.jpg"></a></li> 
-					<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/page3-img7.jpg"></a></li> 
-					<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/page3-img8.jpg"></a></li> 
-					<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/page3-img9.jpg"></a></li> 
-					<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/page3-img10.jpg"></a></li> 
-					<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/page3-img11.jpg"></a></li> 
-					<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/page3-img12.jpg"></a></li> 
-					<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/page3-img13.jpg"></a></li> 
-					<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/page3-img14.jpg"></a></li> 
-					<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/page3-img15.jpg"></a></li> 
-					<li class="box"><a href="img/image-blank.png" class="magnifier" ><img alt="" src="img/page3-img16.jpg"></a></li>     -->                   
-				</ul> 
-			</div>
-		</div>
-	</div>
-</div>
-</div>
+    {{> modal}}
+	<div class="container-fluid bg-content">
+        <div class="container" id="content">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">   
+                    <div class="row bottom-20">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h1 class="text-center">Artists</h1>
+                        </div>
+                    </div>   
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="#" data-toggle="modal" data-target="#portfolioModal1" class="portfolio-link">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="/img/esther/EstherDel.jpg" class="img-responsive" alt=""> 
+                        </a>
+                        <br>
+                        <a href="#" data-toggle="modal" data-target="#portfolioModal1"><p id="artcont">Esther Delaquis-Baidoo</p></a>
+                    </div>
 
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="#" data-toggle="modal" data-target="#portfolioModal2" class="portfolio-link">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="/img/bright/bright.jpg" class="img-responsive" alt=""> 
+                        </a>
+                        <br>
+                        <a href="#" data-toggle="modal" data-target="#portfolioModal1"><p id="artcont">Bright</p></a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="#" data-toggle="modal" data-target="#portfolioModal3" class="portfolio-link">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="/img/derek/derek.jpg" class="img-responsive" alt="">
+                        </a>
+                        <br>
+                        <a href="#" data-toggle="modal" data-target="#portfolioModal1"><p id="artcont">Derek Frimpong</p></a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="#" data-toggle="modal" data-target="#portfolioModal4" class="portfolio-link">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                </div>
+                            </div>
+                            <img src="/img/face.jpg" class="img-responsive" alt="">                          
+                        </a>
+                        <br>
+                        <a href="#" data-toggle="modal" data-target="#portfolioModal1"><p id="artcont">Theophilus Boateng Kwaku Sarpong </p></a>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
 </template>

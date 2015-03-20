@@ -2,14 +2,21 @@
   {{> modal2}}
   <header id="top" class="header">
     <div class="text-vertical-center">
-      <h1>WELCOME TO</h1>
-      <h1>ARTFRIC</h1>
+      <h1>WELCOME TO ARTFRIC</h1>
       <br>
+
+      <!-- <a href="{{pathFor 'gallery'}}" class="btn btn-info btn-lg">EXPLORE</a> -->
       <a href="{{pathFor 'gallery'}}" class="btn">EXPLORE</a>
       {{#if user}}
       {{else}}  
-      <a href="#myModal" class="btn" data-toggle="modal">Sign Up</a>
+      <!-- <a href="#myModal" class="btn" data-toggle="modal">Sign Up</a> -->
+      <a href="#myModal" class="btn btn-danger btn-xs">Sign Up</a>
       {{/if}}
+      
+      
+    </div>
+    <div>
+      
     </div>
   </header>
 </template>

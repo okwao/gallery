@@ -1,3 +1,16 @@
+<head>
+	<title>Artfric</title>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-60910458-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
+</head>
 <template name="layout">
 	{{> nav}}
 	{{> plugins}}
@@ -6,6 +19,7 @@
 </template>
 
 <template name="nav">
+
 	<header>
 		<div class="container clearfix">
 			<div class="row">
@@ -29,9 +43,29 @@
 						</div>
 					</div>
 				</div>
-			</div>
+
+<!-- 	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			    </button>
+			    <a href="{{pathFor 'home'}}"><img alt="" src="img/art.png" class="navimg"></a> -->
+<!-- 
+			  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse_">Menu <span class="icon-bar"></span> </a>
+			  <ul class="nav navbar-right">
+			  	<li class="box"><a href="{{pathFor 'home'}}">Home</a></li>
+			  	<li class="box"><a href="{{pathFor 'artists'}}">Artists</a></li>
+			  	<li class="box"><a href="{{pathFor 'gallery'}}">Gallery</a></li>
+			  	<li class="box"><a href="{{pathFor 'contact'}}">Contact</a></li>
+			  </ul>
+			</nav> -->
 		</div>
-	</header>
+	</div>
+</header>
 </template>
 
 <template name="footer">
@@ -39,11 +73,8 @@
 		<div class="container clearfix">
 			<ul class="list-social pull-right">
 				<li><a class="icon-1" href="#"></a></li>
-				<li><a class="icon-2" href="#"></a></li>
-				<li><a class="icon-3" href="#"></a></li>
-				<li><a class="icon-4" href="#"></a></li>
+				<li><a class="icon-3" href="www.twitter.com/Artfricgallery"></a></li>
 			</ul>
-			<div class="privacy pull-left">Website Template designed by <a href="http://www.templatemonster.com/" target="_blank" rel="nofollow">TemplateMonster.com</a> </div>
 		</div>
 	</footer>
 </template>
