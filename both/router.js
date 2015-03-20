@@ -30,3 +30,15 @@ Router.route('/gallery', {
 Router.route('/contact', {
   name: 'contact'
 });
+
+Router.route('/modal', {
+	name: 'modal'
+});
+
+Router.route('/show', {
+	name: 'show'
+});
+
+Router.route('/submit', {
+	name: 'postArt'
+});

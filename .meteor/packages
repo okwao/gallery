@@ -7,8 +7,6 @@
 meteor-platform
 autopublish
 insecure
-cfs:standard-packages
-cfs:gridfs
 cfs:ui
 accounts-base
 iron:router
@@ -18,4 +16,7 @@ aldeed:collection2
 jquery
 twbs:bootstrap
 reywood:iron-router-ga
+yogiben:autoform-modals
+cfs:gridfs@=0.0.31
+cfs:standard-packages@=0.5.4
 useraccounts:bootstrap

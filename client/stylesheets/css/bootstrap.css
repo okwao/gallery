@@ -65,7 +65,7 @@ img {
   width: auto\9;
   /* IE7-8 need help adjusting responsive images */
 
-  height: auto;
+  height: 300px;
   /* Part 2: Scale the height according to the width, otherwise you get stretching */
 
   vertical-align: middle;
@@ -4440,7 +4440,7 @@ a.thumbnail:hover {
   max-width: 265px;
   margin-left: auto;
   margin-right: auto;
-  max-height: 300px;
+  max-height: 250px;
 }
 .thumbnail .caption {
   padding: 9px;
@@ -4883,6 +4883,10 @@ a.badge:hover {
 
   width:100px;
   height:20px;
-  font-size:20px;
+  font-size:25px;
+  padding: 20px 25px;
 
+}
+#logo{
+  max-height: 100px;
 }
