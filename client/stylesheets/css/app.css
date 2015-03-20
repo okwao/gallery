@@ -7,9 +7,10 @@
 	border-color:#FFFFFF;
 }
 .navimg {
-	width: 45%;
-	margin-left: 20px;
-	padding-top: 5px;
+	width: 50% !important;
+	margin-left: 20px !important;
+	padding-top: 5px !important;
+    height: 50% !important;
 }
 .bg-content {
 	background: url(/img/bg-content.jpg) 50% 50%;
