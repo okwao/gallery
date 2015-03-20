@@ -1,15 +1,6 @@
 <head>
 	<title>Artfric</title>
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-60910458-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+	
 </head>
 <template name="layout">
 	{{> autoformModals}}
@@ -31,15 +22,15 @@
 			    </button>
 				<a href="{{pathFor 'home'}}"><img alt="" src="img/art.png" class="navimg"></a>
 			</div>
-				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse_">Menu <span class="icon-bar"></span> </a>
-					<ul class="nav navbar-right">
-						<li class="box"><a href="{{pathFor 'home'}}">Home</a></li>
-						<li class="box"><a href="{{pathFor 'artists'}}">Artists</a></li>
-						<li class="box"><a href="{{pathFor 'gallery'}}">Gallery</a></li>
-						<li class="box"><a href="{{pathFor 'contact'}}">Contact</a></li>
-					</ul>
-		</div>
-	</nav>
+				<a class="btn btn-navabr" data-toggle="collapse" data-targer=".nav-collapse_">Menu <span class="icon-bar"></span></a>
+				<ul>
+					<li class="box"><a href="{{pathFor 'home'}}"></a>Home</li>
+					<li class="box"><a href="{{pathFor 'artists'}}"></a>Artists</li>
+					<li class="box"><a href="{{pathFor 'gallery'}}"></a>Gallery</li>
+					<li class="box"><a href="{{pathFor 'contact'}}"></a>Contact</li>
+				</ul>
+		</nav>
+	</header>
 </template>
 
 <template name="footer">

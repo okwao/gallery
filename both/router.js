@@ -27,18 +27,6 @@ Router.route('/gallery', {
 	name: 'gallery'
 });
 
-Router.route('/contact', {
-  name: 'contact'
-});
-
-Router.route('/modal', {
-	name: 'modal'
-});
-
-Router.route('/show', {
-	name: 'show'
-});
-
-Router.route('/submit', {
-	name: 'postArt'
+Router.route('/about', {
+  name: 'about'
 });

@@ -98,3 +98,6 @@ useraccounts:core@1.8.1
 webapp@1.1.6
 webapp-hashing@1.0.2
 yogiben:autoform-modals@0.3.1
+yogiben:comments@0.1.0
+yogiben:favorites@0.0.4
+yogiben:user-helpers@0.0.1
