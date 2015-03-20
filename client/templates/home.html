@@ -1,33 +1,30 @@
 <template name="home">
-  {{> modal2}}
+  <div style>
+    {{> modal2}}
+  </div>
   <header id="top" class="header">
     <div class="text-vertical-center">
       <h1>WELCOME TO ARTFRIC</h1>
       <br>
-
-      <!-- <a href="{{pathFor 'gallery'}}" class="btn btn-info btn-lg">EXPLORE</a> -->
-      <a href="{{pathFor 'gallery'}}" class="btn">EXPLORE</a>
+      <a href="{{pathFor 'gallery'}}" class="btn btn-info md">EXPLORE</a>
       {{#if user}}
+      <a href="{{pathFor 'artists'}}" class="btn btn-info md">Artists</a>
       {{else}}  
-      <!-- <a href="#myModal" class="btn" data-toggle="modal">Sign Up</a> -->
-      <a href="#myModal" class="btn btn-danger btn-xs">Sign Up</a>
+      <a href="#myModal" class="btn btn-info md" data-toggle="modal">Sign Up</a>
       {{/if}}
-      
-      
     </div>
-  <!--   <div>
-      
-       <a href="#about" class="btn btn-danger medium-btn">Sign Up</a>
+  </header>
 
-     </div> -->
-   </header>
- </template>
+</template>
 
- <template name="modal2">
-  <div class="modal fade" id="myModal" style="width:350px;">
+<template name="modal2">
+  <div class="modal fade" id="myModal">
     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-    <div style="background-color:#c0c0c0; border-radius:5px; margin:0 10px 0 10px;">
+    <!--     <div style="background-color:#c0c0c0; border-radius:5px; margin:0 10px 0 10px; width:350px;"> -->
       {{> atForm}}
-    </div>
+      <!-- </div> -->
   </div><!-- /.modal -->
 </template>
+
+
+<!-- //************************** -->

@@ -27,7 +27,7 @@ Router.route('/gallery', {
 	name: 'gallery'
 });
 
-Router.route('/contact', {
-  name: 'contact'
+Router.route('/about', {
+  name: 'about'
 });
 
