@@ -14,8 +14,9 @@ accounts-password
 aldeed:autoform
 aldeed:collection2
 jquery
+twbs:bootstrap
 reywood:iron-router-ga
-useraccounts:bootstrap
 yogiben:autoform-modals
 cfs:gridfs@=0.0.31
 cfs:standard-packages@=0.5.4
+useraccounts:bootstrap
