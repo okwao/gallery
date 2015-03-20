@@ -7,8 +7,6 @@
 meteor-platform
 autopublish
 insecure
-cfs:standard-packages
-cfs:gridfs
 cfs:ui
 accounts-base
 iron:router
@@ -22,3 +20,6 @@ raix:handlebar-helpers
 yogiben:favorites
 yogiben:comments
 twbs:bootstrap
+yogiben:autoform-modals
+cfs:gridfs@=0.0.31
+cfs:standard-packages@=0.5.4

@@ -3,6 +3,7 @@
 	
 </head>
 <template name="layout">
+	{{> autoformModals}}
 	{{> nav}}
 	{{> plugins}}
 	{{> yield}}
@@ -11,30 +12,21 @@
 
 <template name="nav">
 	<header>
-		<div class="container clearfix">
-			<div class="row">
-				<div class="span12">
-					<div class="navbar navbar_">
-						<div class="container">
-							<h1 class="brand brand_"><a href="{{pathFor 'home'}}"><img alt="" src="img/art.png" width="152" height="152"> </a></h1>
-							<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse_">Menu <span class="icon-bar"></span> </a>
-							<div class="nav-collapse nav-collapse_ collapse">
-								<ul class="nav sf-menu">
-									<li><a href="{{pathFor 'home'}}">Home</a></li>
-									<li><a href="{{pathFor 'artists'}}">Artists</a></li>
-									<li><a href="{{pathFor 'gallery'}}">Gallery</a></li>
-									<li><a href="{{pathFor 'about'}}">About</a></li>
-									{{#if user}}
-									<li><a href="{{logout}}" id="logout">Log Out</a></li>
-									{{/if}}
-								</ul>
-							</div>
-							
-						</div>
-					</div>
+		<nav class="navbar navbar-default">
+			
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="{{pathFor 'home'}}"><img alt="" src="img/art.png" class="navimg"></a>
+
 				</div>
 			</div>
-		</div>
+		</nav>
 	</header>
 </template>
 
@@ -42,8 +34,8 @@
 	<footer>
 		<div class="container clearfix">
 			<ul class="list-social pull-right">
-				<li><a class="icon-1" href="#"></a></li>
-				<li><a class="icon-3" href="www.twitter.com/Artfricgallery"></a></li>
+				<li><a class="icon-1" href="https://www.facebook.com/artfric"></a></li>
+				<li><a class="icon-3" href="https://twitter.com/Artfricgallery"></a></li>
 			</ul>
 		</div>
 	</footer>

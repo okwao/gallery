@@ -30,4 +30,3 @@ Router.route('/gallery', {
 Router.route('/about', {
   name: 'about'
 });
-

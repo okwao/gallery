@@ -67,6 +67,7 @@ mobile-status-bar@1.0.2
 mongo@1.0.11
 mongo-livedata@1.0.7
 mrt:moment@2.6.0
+mpowaga:string-template@0.1.0
 npm-bcrypt@0.7.7
 observe-sequence@1.0.4
 ordered-dict@1.0.2

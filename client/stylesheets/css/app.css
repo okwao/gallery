@@ -190,9 +190,15 @@ top: 0% !important;
     margin-left: 10px !important;
     margin-right: 10px !important; 
 }
-h4{
+h4, h5, h6{
     color: black !important;
 }
 .fade.in {
-    opacity: 0.9 !important;
+    opacity: 1 !important;
+}
+.esther{
+    width: 30%
+}
+.navbar .nav{
+    margin-top: 25px !important;
 }
